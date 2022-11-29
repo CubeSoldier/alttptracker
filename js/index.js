@@ -137,8 +137,8 @@ function launch_tracker() {
 		restreamingcode = "000000";
 	}
 	
-	var width = map === "M" ? 1340 : 448;
-	var height = sphere === "Y" ? map === "C" ? 988 : 744 : map === "C" ? 692 : 448;
+	var width = map === "M" ? 898 : 448;
+	var height = sphere === "Y" ? map === "C" ? 988 : 744 : map === "C" ? 692 : 898;
 	
 	if (document.getElementById("remembersettings").checked == true) {
 		var settings = "m-" + map + "|s-" + sphere + "|a-" + autotracking + trackingport + "|p-" + sprite;
